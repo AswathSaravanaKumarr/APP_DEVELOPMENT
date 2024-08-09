@@ -1,0 +1,199 @@
+
+.desktopnav {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position: fixed;
+    height: 70px;
+    display:flex;
+  
+    z-index: 17;
+  width:1530px;
+    max-width: 100%;
+     transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+  }
+  .desktopnav.shadow {
+    box-shadow: 1px 1px 12px 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+
+.logo{
+ padding-left: 70px;
+ padding-right:410px;
+ font-size: 35px;
+ font-weight: 800;
+ color: #1354cd;
+}
+
+.logo1{
+  color: #0d4fc9;
+font-Weight: 'bold';
+}
+
+.nav-links{ 
+ list-style: none;
+ display: flex;  
+ gap: 2.3rem;
+ justify-content:center;
+ align-items: center;
+ padding-right: 0px;
+}
+
+.nav-links li , a{
+ font-size: 20px;
+ color: rgb(52, 49, 49);
+ text-decoration: none;
+ text-decoration-color: rgb(7, 7, 7);
+ text-underline-offset:none; 
+ cursor:pointer;
+ font-weight: 600;
+}
+
+.nav-links li :hover, a:hover{
+ text-decoration: underline;
+ color: rgb(8, 83, 187);
+ transition: transform 0.5s ease; 
+ transition: color 0.5s ease; 
+ text-underline-offset: 0.8rem;
+}
+.navbt 
+{
+width: 100px;
+height: 43px;
+border-radius: 10px;
+border: none;
+outline: none;
+color:white;
+background-color: rgb(233, 98, 30);
+font-size: 17px;
+font-weight: 700;
+cursor: pointer;
+}
+.navbt1:hover{
+ background-color: rgb(8, 83, 187);
+ box-shadow: 1px 1px 12px 5px rgba(255, 232, 232, 0.2);
+}
+.navbt1{
+ background-color: rgb(44, 114, 211);
+}
+
+.navbt:hover{
+ background-color: rgb(176, 60, 2);
+ box-shadow: 1px 1px 12px 5px rgba(255, 232, 232, 0.2);
+}
+.hire{
+ width: 140px;
+ height: 43px;
+ border-radius: 10px;
+ border: 0.5px solid rgb(173, 170, 170);
+ outline: none;
+ color:rgb(0, 0, 0);
+ background-color: rgb(255, 255, 255);
+ font-size: 17px;
+ font-weight: 700;
+ cursor: pointer;
+}
+.hire:hover{
+ box-shadow: 1px 1px 12px 5px rgba(0, 0, 0, 0.2);
+ border: none;
+ 
+}
+.apply1:hover{
+ background-color: rgb(7, 50, 99);
+}
+.hire1:hover{
+ background-color: rgb(177, 66, 11);
+
+}
+button{
+ width: 120px;
+ height: 43px;
+ border-radius: 10px;
+ border: none;
+ outline: none;
+ color:white;
+ padding-right: 20px;
+ background-color: rgb(44, 114, 211);
+ font-size: 17px;
+ font-weight: 700;
+ cursor: pointer;
+}
+
+.apply1{
+ padding: 12px;
+ width: 150px;
+ border-radius: 5px;
+ background-color: rgb(44, 114, 211);
+}
+.hire1{
+ padding: 12px;
+ width: 150px;
+ border-radius: 5px;
+ background-color: rgb(232, 100, 34);
+
+}
+/****/
+.alt-links{
+    background-color: white;
+    box-shadow: 1px 1px 12px 5px rgba(0, 0, 0, 0.07);
+    align-items: center;
+    position: fixed;
+    gap:1rem;
+    height:70px;
+    padding-right: 60px;
+    display:flex;
+    flex-direction: row;
+    padding-top: -10px;
+    z-index: 2;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.topspace{
+    height: 60px;
+}
+.alt-links{
+    list-style: none;
+    display: flex;  
+    justify-content:center;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 88.5px;
+}
+.altnav button:hover{
+    background-color: rgb(30, 110, 195);
+   
+}
+.user-info {
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    color: rgb(9, 7, 7);
+    gap: 1rem;
+    padding-right: 20px;
+  }
+
+  
+  .user-info span {
+    color: rgb(16, 16, 110);
+  }
+  .navibutton{
+    margin-left: 70px;
+  }
+  .navibutton .sbutton1{
+    background-color: #135ade;
+    border-radius: 80px;
+    border: 1px solid rgb(77, 77, 77);
+    margin-left: 0px;
+    
+    width: 160px;
+    color: rgb(255, 255, 255);
+
+  }
+  .navibutton .sbutton{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 80px;
+    width: 160px;
+    margin-left: 0px;
+    color: black;
+ 
+  }

@@ -1,0 +1,122 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e0e5ea;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .auth-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .auth-buttons .login {
+    background-color: transparent;
+    border: 1px solid black;
+  }
+  
+  .auth-buttons .join {
+    background-color: black;
+    color: white;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .intro {
+    max-width: 600px;
+  }
+  
+  .intro h1 {
+    font-size: 80px;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .popular-skills {
+    margin: 20px 0;
+  }
+  
+  .popular-skills span {
+    margin-right: 10px;
+  }
+  
+  .popular-skills button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .trusted-freelancers {
+    margin-top: 20px;
+  }
+  
+  .trusted-freelancers h2 {
+    font-size: 24px;
+  }
+  
+  .trusted-freelancers .freelancers {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  .trusted-freelancers .freelancers img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .freelancer-highlight {
+    display: flex;
+    align-items: center;
+  }
+  
+  .freelancer-highlight img {
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .freelancer-info span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  

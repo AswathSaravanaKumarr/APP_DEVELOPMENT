@@ -1,0 +1,141 @@
+
+ /*Contact*/
+ .Contacth
+ {
+    background-color: #073faa;
+     padding: 20px;
+     margin-top: px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 50px;
+     width:100%;
+ }
+ .Contacth h1{
+     color: white;
+ }
+ .Contacth .line{
+         height: 1px;
+        background-color: white;
+ }
+ .Contacth p{
+     color: white;
+     font-size: 16px;
+ }
+ 
+ .contact{
+     height: 500px;
+     width: 100%;
+     padding-left:170px;
+     padding-top: 110px;
+     padding-bottom: 140px;
+     background-color: rgb(255, 255, 255);
+ }
+ .contactf{
+     display: flex;
+     height: 500px;
+     width: 80%;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3); 
+ }
+ .contactl{
+     width:60%;
+     background-color: rgb(255, 255, 255);
+     height: 90%;
+     display: flex;
+     margin-top: 40px;
+     flex-direction: column;
+ }
+ .Ns, .Ep, .Ms {
+     display: flex;
+     justify-content: space-around;
+     max-width: 100%; /* Ensure the elements do not exceed the page width */
+     margin: 0 auto; /* Center the content */
+     box-sizing: border-box; /* Include padding and border in the element's total width and height */
+ }
+ 
+ .Ns, .Ep {
+     padding-top: 15px;
+     padding-left: 50px;
+     padding-right: 50px;
+     gap: 18px;
+ }
+ 
+ .Ns .l1, .Ep .l1 {
+     width: 270px;
+     height: 30px;
+ }
+ 
+ .Ms {
+     flex-direction: column;
+     padding-top: 15px;
+     padding-left: 60px;
+     padding-right: 85px;
+     gap: 1.5rem;
+ }
+ 
+ .msg {
+     display: flex;
+     width: 610px;
+     height: 160px;
+     text-align: left; 
+     justify-content: center;
+     box-sizing: border-box; 
+     margin-bottom: 15px;
+ 
+ }
+ 
+ .Ms button {
+     width: 250px;
+     height: 50px;
+     border-radius: 4px;
+ }
+ 
+ .contactr {
+     display: flex;
+     flex-direction: column;
+     border-left: 1px solid rgb(144, 144, 144);
+ }
+ 
+ .contactr .det {
+     padding-left: 40px;
+     padding-top: 30px;
+     background-color: rgb(255, 255, 255);
+ }
+ 
+ .det div span{
+   margin-right: 10px;     
+ }
+ 
+ .det .p1{
+     padding-bottom: 15px;
+ }
+ .det p{
+     padding-bottom: 10px;
+ }
+ body {
+     overflow-x: hidden;
+ }
+ .contacticon{
+     margin-left: 40px;
+     margin-top: 40px;
+     padding: 0px;
+ }
+ .Conicon #ic{
+     padding-right: 20px;
+ }
+ 
+ .Conicon #ic:hover{
+     padding-right: 20px;
+     cursor: pointer;
+ }
+ .contact .contactf {
+    opacity: 0;
+    transform: translatex(-300px);
+    transition: transform 1.5s ease-out, opacity 1.7s ease-out;
+  }
+  
+  .contact .contactf.animate,
+  .contact .contactf.animate {
+    opacity: 1;
+    transform: translateX(0);
+  }

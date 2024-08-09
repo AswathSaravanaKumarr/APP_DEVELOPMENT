@@ -1,0 +1,13 @@
+/* Main.css */
+
+
+  .joblistdiv {
+   
+    /* Pushes content to the right to make space for the filter section */
+    height: 100%;
+    overflow-y: auto; /* Makes the job list section scrollable */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  

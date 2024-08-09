@@ -1,0 +1,102 @@
+.manage-jobs-container {
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.edit-job-form {
+    width:1000px;
+    margin-bottom: 20px;
+}
+
+.edit-job-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.edit-job-form input,
+.edit-job-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+.edit-job-form button {
+    margin-right: 10px;
+}
+
+.jobs-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-card {
+    display: flex;
+    align-items: stretch;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    flex: 0 0 150px; /* Adjust width as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.logo-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.details-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.details-container h3 {
+    margin: 0 0 10px 0;
+}
+/* .manage-jobs-container {
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.edit-job-form {
+    margin-bottom: 20px;
+}
+
+.edit-job-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.edit-job-form input, .edit-job-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+.edit-job-form button {
+    margin-right: 10px;
+}
+
+.jobs-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.job-card h3 {
+    margin: 0 0 10px 0;
+} */

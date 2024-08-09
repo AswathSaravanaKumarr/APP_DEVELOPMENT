@@ -1,0 +1,47 @@
+joblist.css
+/* .job-list-container {
+  display: flex;
+}
+
+.filters {
+  width: 20%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+*/
+.job-list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.job-list-container {
+  display: flex;
+  height: 100vh; 
+}
+
+.filters {
+  position:sticky;
+  top:300px;
+  left:0px;
+  height: 200px;
+  width: 20%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  overflow-y: auto; /* Allows scrolling if content overflows */
+  height: 100%; /* Ensures it fills the container's height */
+  box-sizing: border-box; /* Includes padding and border in the width and height */
+}
+
+.job-list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  
+  gap: 10px;
+  overflow-y: auto; /* Allows scrolling if content overflows */
+  height: 100%; /* Ensures it fills the container's height */
+  box-sizing: border-box; /* Includes padding and border in the width and height */
+}

@@ -1,0 +1,168 @@
+/* Steps */
+.steps {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #073faa;
+}
+
+.steps div {
+    padding: 30px;
+    /* gap: 2rem; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease; /* Added transition */
+}
+
+.steps div:hover {
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.3); /* Added shadow effect */
+    cursor: pointer;
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.steps div p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.stepicon {
+    height: 60px;
+    width: 100px;
+}
+
+/* Job Categories */
+.jobcat {
+    display: flex;
+    padding-top: 70px;
+    z-index: 2;
+    max-width: 100%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobcat1 {
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.joblogo {
+    font-size: 50px;
+    color: #0e4ec6;
+}
+
+/* Job Container */
+.jobc {
+    background-color: white;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 1px 10px 15px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 90px;
+}
+
+.jobc1, .jobc2 {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.jobc1 {
+    padding-bottom: 30px;
+}
+
+.jobc1 div, .jobc2 div {
+    border: 0.01rem solid rgb(201, 201, 201);
+    padding: 20px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+   
+/* Initial state for jobc1 and jobc2 divs */
+}
+
+.jobc1 div h2, .jobc2 div h2 {
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.jobc1 div:hover, .jobc2 div:hover {
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transform: translateY(-5px); /* Slightly move up on hover */
+}
+
+.jobc1 div h2, .jobc2 div h2 {
+    color: black;
+    font-size: 18px;
+}
+
+/* Navigation Links */
+.nav-links .link:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Job Icons */
+.jobsicon {
+    background-color: #0e4ec6;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* Job Cover */
+.jobccover {
+    z-index: 0;
+    height: 81vh;
+    position: absolute;
+    width: 83vw;
+    margin-top: 150px;
+    margin-right: 120px;
+    background-color: #073faa;
+    border-radius: 30%;
+    transform-origin: bottom left;
+    transform: skew(-10deg, 0deg);
+}
+
+.jobc1 div, .jobc2 div {
+    opacity: 0;
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+}
+
+/* jobc1 divs slide in from the top */
+.jobc1 div {
+    transform: translateX(-210px);
+}
+
+/* jobc2 divs slide in from the bottom */
+.jobc2 div {
+    transform: translateX(-210px);
+}
+
+/* Animation state */
+.jobc.animate .jobc1 div, 
+.jobc.animate .jobc2 div {
+    opacity: 1;
+    transform: translatey(0);
+}

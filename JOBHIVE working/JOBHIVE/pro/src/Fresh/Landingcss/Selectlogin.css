@@ -1,0 +1,93 @@
+.sbox{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 490px;
+    width: 900px;
+   
+    margin-left: 19%;
+    margin-bottom: 10%;
+    z-index:3;
+   
+    box-shadow: 10px 10px 15px 12px rgba(0, 0, 0, 0.3); 
+    
+    
+}
+.sbl{
+      width:60%;
+      flex-direction: column;
+      padding: 30px;
+      background-color: #ffffff;
+      padding-top: 50px;
+      padding-left: 50px;
+      border-right: 1px solid rgb(168, 168, 168);
+      display: flex;
+      gap: -10px;
+}
+.sbl .s3,.sbl .s1,.sbl .s2{
+    background-color: rgb(255, 255, 255);
+    width: 86%;
+    border: 1px solid rgb(210, 207, 207);
+    padding: 22px;
+    border-radius: 4px;
+ 
+}
+.sbl a{
+    color: rgb(56, 143, 243);
+    text-decoration: underline;
+    margin-left:30px;
+    font-size: 18px;
+    
+}
+.sbl a:hover{
+    text-decoration: underline;
+    color: rgb(18, 83, 196);
+    text-underline-offset: 4px;
+    transition: none;  
+}
+.ssbox{
+position: absolute;
+padding-left: 50px;
+position: fixed;
+width: 100%;
+background-color: transparent;
+backdrop-filter:blur(30px);
+z-index:4;
+}
+.sbl h1{
+justify-content: space-around;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size:    24px;
+}
+
+.sbr{
+    padding-top: 70px;
+    display: flex;
+   background-color: #0b42a8;
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 50%;
+}
+.womens {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    z-index: 3;
+    position: relative;  
+}
+  
+.cover2 {
+    z-index: 0;
+    height: 59vh;
+    position: absolute;
+    width: 30vw;
+    margin-top: 18px;
+    background-color: #0b42a8;
+    border-radius: 16%;
+    margin-left: 400px;
+    margin-bottom: 30px;
+    transform-origin: bottom left;
+    -ms-transform: skew(-90deg, 60deg);
+    -webkit-transform: skew(-90deg, 10deg);
+    transform: skew(-20deg, 0deg);
+  }

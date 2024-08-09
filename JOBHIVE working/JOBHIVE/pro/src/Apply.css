@@ -1,0 +1,91 @@
+
+.applymaindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 1700px;  
+    position: fixed; 
+    top: 75px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    overflow: auto; 
+    z-index: 20;
+}
+
+.applyform {
+    background-color: white;
+    width:1000px; 
+    height: 1000px;
+    margin: 20px; 
+    margin-top: 400px;
+    margin-bottom: 100px;
+    border-radius: 20px;    
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+.applyform h2{
+    margin-top: 20px;
+    color:#1354cd;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.appflexrow {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; /* Reduce gap size */
+    margin-bottom: 20px;
+}
+
+.appflex1 {
+    flex: 1; /* Allow flex items to grow */
+    min-width: 200px; /* Set a minimum width for better responsiveness */
+}
+
+.adddiv textarea {
+    width: 100%; /* Make textarea responsive */
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    height: 100px;
+}
+.close1button{
+    color:black;
+    text-align: end;
+    margin-left:900px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.submitbutton {
+    font-size: 16px; /* Adjust font size */
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%; /* Make button full width */
+    max-width: 150px; /* Limit maximum width */
+    color: white;
+    background-color: rgb(31, 96, 200);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .applyform {
+        width: 90%; /* Make form width responsive */
+        height: auto; /* Adjust height */
+    }
+
+    .appflexrow {
+        flex-direction: column; /* Stack inputs vertically on smaller screens */
+        gap: 20px; /* Increase gap for better spacing */
+    }
+
+    .appflex1 {
+        width: 100%; /* Full width on smaller screens */
+    }
+}

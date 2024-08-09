@@ -1,0 +1,89 @@
+.applicationsmaindiv {    
+    margin-left: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.applications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.application-card {
+    height:200px;
+    width:1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.application-details {
+    flex: 1;
+}
+
+.application-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.accept-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reject-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accept-btn:hover {
+    background-color: #45a049;
+}
+
+.reject-btn:hover {
+    background-color: #e53935;
+}
+.accept-btn.disabled {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+.reject-btn.disabled {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+.status-text {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #4CAF50; 
+}
+.status-text.accepted {
+    color: #4CAF50; 
+}
+
+.status-text.rejected {
+    color: #f44336; 
+}

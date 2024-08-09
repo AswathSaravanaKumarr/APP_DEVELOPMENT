@@ -1,0 +1,87 @@
+/*Start */
+.start {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom:20px ;
+  }
+  
+  .simage {
+    position: relative;
+    z-index: 1; /* This should be higher than .cover's z-index */
+    width: 50%;
+  }
+  
+  .sRight {
+    padding-top: 90px;
+    padding-right: 30px;
+    padding-left:140px;
+    width:50%;
+  }
+  
+  .sRight h1 {
+    font-size: 60px;
+  }
+  
+  .cover {
+    z-index: 0;
+    height: 89vh;
+    position: absolute;
+    width: 39vw;
+    margin-top: 18px;
+    background-color: #073faa;
+    border-radius: 16%;
+    transform-origin: bottom left;
+    -ms-transform: skew(-90deg, 60deg);
+    -webkit-transform: skew(-90deg, 10deg);
+    transform: skew(-20deg, 0deg);
+  }
+
+  
+  .sRight p {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  
+  .slogo {
+    padding-top: 30px;
+    font-size: 49px;
+    font-weight: 800;
+    color: #135ade;
+  }
+  
+  .sbutton {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 80px;
+    margin-right: 20px;
+    width: 170px;
+    color: black;
+    margin-left: 80px;
+  }
+  .sbutton:hover{
+    cursor: pointer;
+  }
+  
+  .sbutton1 {
+    background-color: #135ade;
+    border-radius: 80px;
+    border: 1px solid rgb(77, 77, 77);
+    margin-right: 20px;
+    width: 170px;
+    color: rgb(255, 255, 255);
+  }
+  .start .sRight {
+    opacity: 0;
+    transform: translatex(300px);
+    transition: transform 1.7s ease-out, opacity 1.7s ease-out;
+  }
+  
+  .start .simage.animate,
+  .start .sRight.animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+
+  

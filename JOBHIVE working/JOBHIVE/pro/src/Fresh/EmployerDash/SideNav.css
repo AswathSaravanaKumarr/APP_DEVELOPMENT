@@ -1,0 +1,78 @@
+.sidenav {
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    top: 0;
+    position: fixed;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .sidenav-links {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sidenav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .sidenav-link:hover,
+  .sidenav-link.active {
+    background-color: #163fc9;
+    color: #ffffff;
+  }
+  
+  .sidenav-icon {
+    margin-right: 10px;
+  }
+  
+  .sidenav-logout {
+    margin-top: auto;
+  }
+  
+  .Cantop{
+   
+       background-color: #073faa;
+        
+        width: 1490px;
+        max-width: 100%;
+        padding-left: 40px;
+        position: fixed;
+  }
+
+  .Cantop h1{
+    color: white;
+}
+.Cantop .line{
+        height: 1px;
+       background-color: white;
+}
+.Cantop p{
+    color: white;
+    font-size: 16px;
+}
+.candid{
+    display: flex;
+    background-color: #163fc9;
+}
+.candetails{
+  flex:1;
+  margin-left: 20px;
+    background-color: #ffffff;
+    
+}

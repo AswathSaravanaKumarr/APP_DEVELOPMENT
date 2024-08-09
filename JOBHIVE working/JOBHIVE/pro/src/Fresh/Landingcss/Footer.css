@@ -1,0 +1,108 @@
+ /*Footer Section*/
+ 
+ .Footer{
+    display: flex;
+    width:100%;
+    height:330px;
+    border-top: 1px solid rgb(166, 164, 164);
+    border-bottom: 1px solid rgb(166, 164, 164);
+    padding-bottom: 100px;
+   
+}
+.Footer #ic{
+    margin-left:30px;
+}
+.foot1{
+     width:30%;
+     margin-top: 30px;
+     background-color: rgb(255, 255, 255);
+}
+.foot1 h1{
+padding-left: 140px;
+}
+.foot1 p{
+    justify-content: center;
+    text-align: center;
+}
+.det1 .ff p{
+  text-align: left;
+  padding-left:100px;
+}
+.foot1 .det1 #ic {
+     padding-right: 15px;
+}
+.footic{
+    display: flex;
+    margin-top: 39px;
+    margin-left: 70px;
+}
+.footic  #ic1{
+    margin-left: 32px;
+   gap: -1px;
+}
+.foot2{
+    width:20%;
+    height:100%;
+    padding: 30px;
+    padding-top: 43px;
+    background-color: rgb(255, 255, 255);
+}
+
+.foot2 div{
+    padding-left: 60px;
+}
+.foot2 p{
+    font-size: 24px;
+}
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    padding: 8px 0; /* Add some space between the list items */
+    font-size: 16px; /* Adjust font size */
+}
+
+
+.foot3{
+    width:20%;
+    height:100%;
+    padding: 30px;
+    padding-top: 43px;
+    background-color: rgb(255, 255, 255);
+}
+
+.foot3 div{
+    padding-left: 50px;
+}
+.foot3 p{
+    font-size: 24px;
+}
+.foot4
+{
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:30%;
+    background-color: rgb(255, 255, 255);
+}
+.foot4 .p1{
+    font-size: 24px;
+}
+.foot4 button{
+    width :275px;
+   
+    border-radius: 3px;
+}
+.foot4 input{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width:250px;
+}
+.footerbottom{
+    height: 30px;
+    width: 400px;
+    background-color: #073faa;
+}

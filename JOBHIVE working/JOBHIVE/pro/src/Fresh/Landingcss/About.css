@@ -1,0 +1,88 @@
+ /*About*/
+ .Abouttop
+ {
+    background-color: #073faa;
+     padding: 20px;
+     max-width: 100%;
+     padding-top: 10px;
+     padding-bottom: 30px;
+     padding-left: 40px;
+     margin-bottom: 100px;
+ }
+ .Abouttop h1{
+     color: white;
+ }
+ .Abouttop .line{
+         height: 1px;
+        background-color: white;
+ }
+ .Abouttop p{
+     color: white;
+     font-size: 16px;
+ }
+ .About{
+     width:100%;
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     
+ }
+ .Aright{
+     background-color: rgb(255, 255, 255);
+     width: 70%;
+     padding-top: 40px;
+     margin-left: 90px;
+    
+ }
+.Aman{
+    margin-left: 40px;
+    margin-right: 40px;
+ }
+ .Aright div{
+     display: flex;
+ }
+ .Aright .ico{
+     margin-top: 30px;
+ }
+ .ico p{
+     padding-left: 5px;
+ }
+ .Abr{
+    padding-top: 80px;
+    display: flex;
+    width: 70%;
+}
+.womenA {
+    display: flex;
+    height: 600px;
+    width: 600px;
+    z-index: 3;
+    margin-right: 70%;
+    position: relative;  
+}
+  
+.coverA {
+    z-index: 0;
+    height: 89vh;
+    position: absolute;
+    width: 35vw;
+    margin-top: 18px;
+    background-color: #0b42a8;
+    border-radius: 16%;
+    margin-left: 710px;
+    margin-bottom: 30px;
+    transform-origin: bottom left;
+    -ms-transform: skew(-90deg, 60deg);
+    -webkit-transform: skew(-90deg, 10deg);
+    transform: skew(-20deg, 0deg);
+  }
+  .About .Aright {
+    opacity: 0;
+    transform: translatex(300px);
+    transition: transform 1.7s ease-out, opacity 1.7s ease-out;
+  }
+  
+  .About .Aright.animate,
+  .About .Aright.animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
